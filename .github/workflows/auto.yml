@@ -18,7 +18,7 @@ jobs:
       - name: DEBUG
         run: echo "::debug::Ref = ${{github.ref}}"
 
-      - uses: actions/checkout@1d96c772d19495a3b5c517cd2bc0cb401ea0529f
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
         with:
           persist-credentials: false
           fetch-depth: 0
