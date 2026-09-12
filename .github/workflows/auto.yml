@@ -33,7 +33,7 @@ jobs:
 
       - name: Commit changes
         run: |
-          git config --local user.name "ItsMe-RiiK"
+          git config --local user.name "RiiK26"
           git config --local user.email "syakirr266@gmail.com"
           git add README.md
 
